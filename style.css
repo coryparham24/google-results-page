@@ -1,0 +1,125 @@
+div.header {
+	padding-top: 25px;
+	padding-left: 13px;
+	overflow: hidden;
+	max-width: 100%;
+	min-width: 1115px;
+	background-color: rgb(250,250,250);
+	height: 100px;
+	background-color: rgba(0, 0, 0, .03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+form, .google-logo, div.buttons, div.nav-icons, li, .l-nav, .r-nav {
+	display: inline-block;
+}
+
+.google-logo {
+	margin-right: 15px;
+}
+
+form {
+	position: relative;
+	top: -20px;
+}
+
+#search-field {
+	display: inline-block;
+	width: 525px;
+	height: 40px;
+	background-color: white;
+	background-image: url(images/search-microphone.png);
+	background-repeat: no-repeat;
+	background-position: 96%;
+	background-size: 17px 22px;
+	border: 1px solid rgba(0, 0, 0, .1);
+  border-bottom: 2px solid rgba(0, 0, 0, .2);
+  border-right: none;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+button.search-bar {
+	background-color: white;
+	height: 40px;
+	margin: 0;
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-left: none;
+	border-bottom: 2px solid rgba(0, 0, 0, .2);
+	height: 45px;
+}
+
+button.microphone, button.magnifying {
+	position: relative;
+	bottom: 1px;
+}
+
+button.microphone {
+	border-right: none;
+}
+
+button.magnifying {
+	position: relative;
+  right: 4px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+div.buttons {
+	position: relative;
+  top: 5px;
+  right: 5px;
+}
+
+div.nav-icons {
+	float: right;
+	position: relative;
+	top: 5px;
+}
+
+.nav-item {
+	margin-right: 22px;
+}
+
+button.nav-item {
+	height: 30px;
+	width: 70px;
+	position: relative;
+	bottom: 4px;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  border: 1px solid #4285f4;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+a {
+	color: rgba(0, 0, 0, 0.6);
+	text-decoration: none;
+}
+
+.nav {
+	width: 633px;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	position: absolute;
+	left: 147px;
+	margin-top: 9px;;
+}
+
+.l-nav {
+	padding-left: 19px;
+}
+
+.r-nav {
+	float: right;
+	padding-right: 10px;
+}
+
+.l-nav-items>li {
+margin-right: 28px;
+}
+
+.r-nav-items>li {
+	margin-left: 28px;
+}
