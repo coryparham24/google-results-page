@@ -1,3 +1,7 @@
+b, strong {
+	font-weight: bold;
+}
+
 div.header {
 	padding-top: 25px;
 	padding-left: 13px;
@@ -178,7 +182,7 @@ h5 {
 	font-family: 'Roboto', arial, sans-serif;
 	font-size: 14px;
 	color: rgb(0, 102, 33);
-	margin-top: 2px;
+	margin-top: 3px;
 }
 
 #search-for {
@@ -204,3 +208,64 @@ h5 {
 		margin-left: 149px;
 		text-align: right;
 	}
+
+	.main-results {
+		position: absolute;
+    left: 150px;
+    width: 613px;
+    margin-top: 25px;
+    padding: 0px 17px;
+    line-height: 110%
+	}
+
+	.inline, .each-result>p {
+		display: inline;
+		font-size: 13px;
+		font-family: 'Roboto', arial, sans-serif;
+		color: rgb(84, 84, 84);
+	}
+
+	.each-result>.date {
+		color:	#808080;
+	}
+
+	.each-result {
+		margin-bottom: 30px;
+	}
+
+	.float-left {
+		display: inline-block;
+		float: left;
+		height: 63px;
+    width: 116px;
+    padding-top: 7px;
+    padding-right: 8px;
+	}
+
+	#block {
+		display: block;
+	}
+
+	.related-searches {
+		position: absolute;
+    top: 1610px;
+    left: 168px;
+	}
+
+	.related-searches>p {
+		color: rgb(34, 34, 34);
+		font-size: 18px;
+		font-family: 'Roboto', arial, sans-serif;
+		margin-bottom: 20px;
+	}
+
+table {
+	color: rgb(26, 13, 171);
+	font-family: 'Roboto', arial, sans-serif;
+	font-size: 14px;
+	line-height: 170%;
+}
+
+td {
+	padding-right: 35px;
+}
