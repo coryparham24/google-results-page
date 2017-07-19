@@ -323,3 +323,30 @@ p.arrow {
 	bottom: 5px;
 }
 
+.footer-div {
+	position: absolute;
+  bottom: -1001px;
+  padding-left: 170px;
+  padding-top: 20px;
+  width: 100%;
+  background-color: rgb(242, 242, 242);
+  border-top: 1px, solid, rgb(228, 228, 228);
+}
+
+.date {
+	color: rgb(170, 170, 170);
+	font-family: 'Roboto', arial, sans-serif;
+	font-size: 13px;
+}
+
+.footer>a {
+	color: rgb(119, 119, 119);
+	font-family: 'Roboto', arial, sans-serif;
+	font-size: 13px;
+	margin-right: -10px;
+}
+
+.footer-table {
+	margin-top: 17px;
+	margin-bottom: 10px;
+}
