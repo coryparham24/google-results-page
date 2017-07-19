@@ -259,7 +259,7 @@ h5 {
 		margin-bottom: 20px;
 	}
 
-table {
+a.table {
 	color: rgb(26, 13, 171);
 	font-family: 'Roboto', arial, sans-serif;
 	font-size: 14px;
@@ -269,3 +269,57 @@ table {
 td {
 	padding-right: 35px;
 }
+
+.google-pages {
+	position: absolute;
+  top: 1765px;
+  left: 315px;
+}
+
+.g, .o-red, .o-yellow, .l, .e {
+	font-family: 'Product Sans';
+	font-size: 38px;
+	font-weight: 500;
+	margin: -2px;
+	padding: 0;
+	border: none;
+}
+
+.g {
+	color: #4885ed;
+}
+
+.o-red, .e {
+	color: #db3236;
+}
+
+.o-yellow {
+	color: #f4c20d;
+}
+
+.l {
+	color: #3cba54;
+}
+
+.page-numbers>a {
+	font-size: 13px;
+	font-family: 'Roboto', arial, sans-serif;
+	color: rgb(66, 133, 244);
+	position: relative;
+  left: 37px;
+  top: 5px;
+}
+
+.page-row>td {
+padding-right: 13px;	
+}
+
+p.arrow {
+	font-size: 22px;
+	font-family: 'Roboto', arial, sans-serif;
+	color: rgb(66, 133, 244);
+	position: relative;
+	left: 25px;
+	bottom: 5px;
+}
+
